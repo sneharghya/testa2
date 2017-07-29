@@ -1,5 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { ReactiveFormsModule } from '@angular/forms'; 
+
+import { MyDatePickerModule } from 'mydatepicker';
 
 import { AppComponent } from './app.component';
 
@@ -8,7 +11,7 @@ import { AppComponent } from './app.component';
     AppComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule, ReactiveFormsModule, MyDatePickerModule
   ],
   providers: [],
   bootstrap: [AppComponent]
